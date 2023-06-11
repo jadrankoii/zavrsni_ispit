@@ -1,0 +1,123 @@
+/* CSS ZANIMANJA3 BODY ZA GL.STRANICU*/
+
+
+#tablica{
+    text-align: center;
+    font-size: larger;
+    align-items: center;
+    font-style: italic;
+
+}
+
+
+
+
+  /* SLIKA U BODY REZERVA AKO SE POKAŽE POTREBA
+  .okvir {
+    position: relative;
+    max-width: 1300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 4px solid rgb(16, 14, 14);
+  }
+  
+
+  .container img {vertical-align: middle;}
+  
+  .container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 95px;
+  }*/
+
+
+
+
+
+
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 26px;
+  font-size: 20px;
+  width: 33%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+
+
+
+/* STIL SADRŽAJA */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+  padding: 20px 26px;
+  font-size: 25px;
+  margin-right: 0.4%;
+}
+
+#prva {background-color:rgb(136, 90, 90);}
+#druga {background-color:rgb(59, 146, 97);}
+#treca {background-color:rgb(74, 141, 180);}
+
+
+
+#img-tekst {
+ 
+  text-align: left;
+  
+  font-size: 0.7cm;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  
+
+}
+
+.slika
+{
+  float: left;
+  margin: 5px 15px 10px 0;
+  border-radius: 10px;
+  border: 3px solid rgb(16, 14, 14);
+  padding: 10px;
+
+}
+
+
+
+#slike
+{
+  max-width: 1600px;
+  margin-left: 0.7%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 

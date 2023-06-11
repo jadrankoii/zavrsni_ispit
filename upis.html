@@ -1,0 +1,191 @@
+<!--UPIS STRANICA ELPROS , ZAVRŠNI ISPIT 20.ožujak 2023 tečaj
+mikrokvalifikacija HZZ-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grupa.css/glavna.css">
+    <link rel="stylesheet" href="grupa.css/upisbody.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="grupa.js/upis.js" defer></script>
+    <script src="grupa.js/sat.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>upis</title>
+</head>
+<body>
+
+
+        <!--NASLOV ISPIS IMENA ELTEH SA LOGOM ZA SVE HTML PLUS CSS NAZIV VANJSKA DATOTEKA -->
+      <h1 style="text-align: center; font-family: 
+        Georgia, 'Times New Roman', Times, serif; font-style: italic; font-size: 1cm;"
+        >ELEKTROTEHNIČKA I PROMETNA ŠKOLA OSIJEK  
+      <img class="naziv"  src="slike/logo.png.png" alt="" > </h1> <br>
+      
+
+
+ 
+       <!--GLAVNI IZBORNIK-->
+      <div class="navbar">
+          <a href="naslovna.html">NASLOVNA</a>
+          <div class="subnav">
+            <button class="subnavbtn">KATALOG KNJIŽNICE<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="rezervacija.html">Rezervacija</a>
+              <a href="popis_knjiga.html">Popis knjiga</a>                        
+          </div>
+        </div>
+
+
+        <div class="subnav">
+          <button class="subnavbtn">ZANIMANJA <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="zanimanja3.html">Trogodišnja</a>
+            <a href="zanimanja4.html">Četverogodišnja</a>            
+          </div>
+        </div>
+
+        
+        <div class="subnav">
+         <!-- <button class="subnavbtn">UPISI <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#">Redovno</a>
+            <a href="#">Vanredno</a> ----  ostavljeno ako bude trebao dodatni podmeni ---->            
+        </div>
+
+        
+        <a href="upis.html">UPISI</a>
+        <a href="novosti.html">NOVOSTI</a>
+        <a href="kontakti.html">KONTAKTI</a>
+
+
+
+                  <!-- SAT U MENIU ,UNIVERZALNA JS DATOTEKA SAT.JS PRIMJENA NA SVIM-->
+
+                <div id="sat" align="center"  style=" margin: 22px;">
+                  <BODY  bgcolour="white" onLoad="Vrijeme()" >
+                    <FORM name="vrijemeForma">
+                    <input tipe="text" name="cifre" size=8>
+                    </FORM>
+                  </BODY>
+                </div>
+
+         
+      </div><br><br><br><br>
+
+
+
+
+
+
+    <!--KALENDAR SA VANJSKIM DATOTEKAMA-->
+  <div class="row">
+      <div class="wrapper">
+        <header>
+          <p class="current-date"></p>
+          <div class="icons">
+            <span id="prev" class="material-symbols-rounded">chevron_left</span>
+            <span id="next" class="material-symbols-rounded">chevron_right</span>
+          </div>
+        </header>
+        <div class="calendar">
+          <ul class="weeks">
+            <li>Ned</li>
+            <li>Pon</li>
+            <li>Uto</li>
+            <li>Sri</li>
+            <li>Čet</li>
+            <li>Pet</li>
+            <li>Sub</li>
+          </ul>
+          <ul class="days"></ul>
+        </div>
+      </div> 
+
+
+
+
+
+      <!--LINKOVI SA DOKUMENTACIJOM ZA UPISE-->
+          
+      <div class="niz">
+        
+         <h2>POTREBNA DOKUMENTACIJA  ZA UPISE</h2>
+         <i><p>Linkovi sa objašnjenjima:</p><br><br>
+
+         
+           <a href="vanjskedatoteke/Publikacija_kandidati s teškoćama u razvoju.pdf">
+            ° upisi kandidata sa poteškoćama u razvoju ° </a> <br><br>
+
+
+           <a href="vanjskedatoteke/Publikacija_redoviti.pdf">
+            ° upisi redoviti kandidati ° </a><br><br>
+
+
+           <a href="vanjskedatoteke/Primjeri_bodovanja.pdf">
+            ° primjeri bodovanja kandidata °</a><br><br>
+          
+
+           <a href="vanjskedatoteke/Natjecaj-za-upise-ELPOS_2021_2022_obavijest.pdf">
+            ° natječaj za upise 2021, 2023  obavijest °</a><br><br>
+          
+
+           <a href="vanjskedatoteke/Natjecaj-za-upise-ELPROS_2022_2023.pdf">
+            ° natječaj za upise 2022, 2023. °</a><br><br>
+
+
+           <a href="vanjskedatoteke/Letak-ELPROS.pdf">
+            ° letak ELPROS °</a><br> </i>
+
+          
+      </div>
+  </div>          
+
+
+
+
+             <!--PODNOŽJE STRANICE SA KONTAKTIMA I IKONAMA-->
+
+      <footer>
+    <div class="kontakt">
+       <div>
+           <ul><b>KONTAKT:</b>
+               <li>Istarska 3, 31000 Osijek</li>
+               <li>OIB: 28015293209</li>
+               <li>Tel: 031 208 400</li>
+               <li>E-mail: ured@ss-elektrotehnicka-prometna-os.skola.hr</li>
+           </ul>
+       </div>
+     <div>
+           <ul><b>ADMINISTRACIJA:</b>
+         
+              <li>Ravnatelj: Antun Kovačić, dipl.ing.</li>
+              <li>Tajnica: Snježana Čagalj, dipl.iur.</li>
+              <li>Pedagoginja: Blaženka Pul, prof</li>
+              <li>Voditelj: Mario Jukić, dipl.ing.</li>
+           </ul>
+     </div>
+
+    
+     <div>
+           <ul><b>DRUŠTVENE MREŽE:</b>
+             <br>
+             <a href="https://www.facebook.com/RckElpros/"  target="_blank" class="fa fa-facebook"></a>
+             <a href="https://elpros.net/"  target="_blank" class="fa fa-google"></a>
+             <a href="https://www.linkedin.com/"  target="_blank" class="fa fa-linkedin"></a>
+             <a href="https://www.youtube.com/watch?v=WIQB3lCp1UY"  target="_blank" class="fa fa-youtube"></a>
+             
+           </ul>
+      </div>
+    </div>
+      </footer>
+
+
+</body>
+</html>

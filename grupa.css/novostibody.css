@@ -1,0 +1,101 @@
+/*NOVOSTI CSS ZAVRŠNI ISPIT OBRADA SADRŽAJA BODY ELEMENTA*/
+
+
+.col-niz {
+    margin-left: 10%;
+    margin-right: 10;
+    max-width: 1600px;
+    display: table; 
+    width: 100%; 
+  }
+  
+  .col {
+   
+    display: table-cell;
+  }
+    
+   
+
+   /*radio probleme izbačen do promjene
+ .div1 {
+    margin-bottom: 15px;
+    padding: 4px 12px;
+  }*/
+  
+
+  .prva {
+    background-color: #9f6666a5;
+    border-left: 6px solid #f4433684;
+    margin-bottom: 25px;
+    padding: 4px 12px;
+  }
+  
+  .druga {
+    background-color: #53b47293;
+    border-left: 6px solid #04aa6d7e;
+    margin-bottom: 25px;
+    padding: 4px 12px;
+  }
+  
+  .treca {
+    background-color: #3c6b9790;
+    border-left: 6px solid #2195f37f;
+    margin-bottom: 25px;
+    padding: 4px 12px;
+  }
+  
+  
+  .cetvrta {
+    background-color: #b2b26282;
+    border-left: 6px solid #ffeb3b92;
+    margin-bottom: 25px;
+    padding: 4px 12px;
+   
+  }
+
+
+
+  .peta {
+    background-color: #979595ea;
+    border-left: 6px solid #1e1e1d92;
+    margin-bottom: 25px;
+    padding: 4px 12px;
+   
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* OSTAVLJENO KAO MOGUĆNOST ZA DODAVANJE OKVIRA OKO VIDEA
+
+  #video {
+    
+   
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 4px solid rgb(16, 14, 14);
+  }*/
+
+
+
+ /* OBRADA VIDEO ZAPISA ,DIMENZIJE SE MIJENJAJU U HTML*/
+  #video
+ {
+ font-size: 0.6cm;
+ position: center;
+ text-align: center;
+  
+ }

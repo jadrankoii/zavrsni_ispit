@@ -1,0 +1,76 @@
+/* ZANIMANJA4  CSS ELPROS ZAVRŠNI ISPIT*/
+
+
+/* SLIKE U NIZU*/
+
+.row 
+ {
+    display: inline-flex;
+    padding-top: 1%;
+    padding-left: 1%;
+  }
+
+ 
+
+  /*TABLICA I OBLIKOVANJE DIO JE DIREKTNO U HTML STILIZIRAN*/
+
+#tablica{
+    text-align: center;
+    font-size: larger;
+    align-items: center;
+    font-style: italic;
+
+}
+
+
+
+
+ /* ŠIRINA KONTEJNERA SA SLIKOM I TEKSTOM */
+.container {
+    position: relative;
+    width: 37%;  
+  }
+
+  
+  /* STIL SLIKE U SPREMNIKU */
+  .image {
+    width: 50%;
+    height:auto;
+    /*border-radius: 40%;*/
+
+  }
+  
+
+  /* OBLIKOVANJE DORADE PREKLAPANJA SA TEKSTOM I PODLOGOM */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #538ea2;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+  }
+  
+
+  /* PRELAZAK MIŠOM I REAKCIJA SA TRANSFORMACIJOM SLIKE*/
+  .container:hover .overlay {
+    transform: scale(1);
+  }
+  
+
+  /* TEKST U TRANSFORMACIJI */
+  .text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: -3%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    transform: translate(0%, 10%);
+    text-align: left;
+  }

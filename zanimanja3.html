@@ -1,0 +1,279 @@
+<!--ZANIMANJA3 STRANICA ELPROS , ZAVRŠNI ISPIT 20.ožujak 2023 tečaj
+mikrokvalifikacija HZZ-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grupa.css/glavna.css">
+    <link rel="stylesheet" href="grupa.css/zanimanja3body.css">
+    <script src="grupa.js/sat.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>elpros_zanimanj3</title>
+</head>
+<body>
+
+
+        <!--NASLOV ISPIS IMENA ELTEH SA LOGOM ZA SVE HTML PLUS CSS NAZIV VANJSKA DATOTEKA -->
+      <h1 style="text-align: center; font-family: 
+        Georgia, 'Times New Roman', Times, serif; font-style: italic; font-size: 1cm;"
+        >ELEKTROTEHNIČKA I PROMETNA ŠKOLA OSIJEK  
+      <img class="naziv"  src="slike/logo.png.png" alt="" > </h1> <br>
+
+
+      
+      <!--GLAVNI IZBORNIK-->
+      <div class="navbar">
+        <a href="naslovna.html">NASLOVNA</a>
+        <div class="subnav">
+            <button class="subnavbtn">KATALOG KNJIŽNICE<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+               <a href="rezervacija.html">Rezervacija</a> 
+              <a href="popis_knjiga.html">Popis knjiga</a>
+            </div>
+          </div>
+
+
+        <div class="subnav">
+          <button class="subnavbtn">ZANIMANJA <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="zanimanja3.html">Trogodišnja</a>
+            <a href="zanimanja4.html">Četverogodišnja</a>            
+          </div>
+        </div>
+
+        
+        <div class="subnav">
+         <!-- <button class="subnavbtn">UPISI <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#">Redovno</a>
+            <a href="#">Vanredno</a>  ---- ostavljeno ako bude trebao dodatni podmeni ---->            
+        </div>
+
+        
+        <a href="upis.html">UPISI</a>
+        <a href="novosti.html">NOVOSTI</a>
+        <a href="kontakti.html">KONTAKTI</a>
+
+
+
+
+                    <!-- SAT U MENIU ,UNIVERZALNA JS DATOTEKA SAT.JS PRIMJENA NA SVIM-->
+
+                <div id="sat" align="center"  style=" margin: 22px;">
+                  <BODY  bgcolour="white" onLoad="Vrijeme()" >
+                    <FORM name="vrijemeForma">
+                    <input tipe="text" name="cifre" size=8>
+                    </FORM>
+                  </BODY>
+                </div>
+
+         
+         </div><br><br><br><br>  
+
+
+     
+      
+
+
+      <!--TABLICA ZANIMANJA -->
+      <table id="tablica" border="5" align="center"> 
+        <tr>
+          <td colspan="4" width="1285"  >
+            <p style="font-size: larger;"> ELPROS TROGODIŠNJA ZANIMANJA</p>
+          </td>
+        </tr>
+        <tr>
+          <td>Elektromonter</td>
+          <td>Elektroničar</td>
+          <td>Vozač motornih vozila</td>
+          
+         
+        </tr>
+        
+        
+    
+        </table><br><br><br><br>
+
+
+
+
+
+
+
+
+       <!--SADRŽAJ BODIJA SLIKA SA TEKSTOM I OPISOM ZANIMANJA-->
+
+
+    <div class="okvir">
+       <div id="prva" class="tabcontent">
+         <i><h1>Elektromonter</h1><br>
+         <p id="img-tekst"  >
+         <img class="slika"  src="slike/rampa.jpg" alt="karta" width="600px" height="300px">
+         Elektromonter obavlja poslove u proizvodnji, prijenosu i distribuciji električne
+         energije od proizvođača do potrošača. Također radi na montiranju i rekonstrukciji 
+         elektroenergetskih postrojenja, električnih mreža i elektroinstalacija. Radi i na
+         postavljanju strojeva, transformatora, mjerno-regulacijskih naponskih vodova,
+         visokonaponskih i niskonaponskih razvodnih postrojenja i električnih upravljačkih
+         aparata. Vrši izvedbu nadzemne mreže izbor odgovarajućih stupova, skladištenje 
+         i transport stupova do mjesta postavljanja, polaganje uzemljenja i namještanje vodova
+         za uzemljenje.Montiranje složenih elektroničkih uređaja, kontrolu proizvoda prema uputama i propisima, 
+         obavljanje poslova održavanja elektroničkih uređaja. Kronične smetnje respiratornog sustava, kronična oboljenja unutarnjih 
+         organa (osobito srca i krvnih žila), vrtoglavice, nesvjestice, teže deformacije 
+         kralješnice, slabi vid te strah od visine mogu biti zapreke za obavljanje ovih poslova.</p></i>
+       </div>
+      
+       <div id="druga" class="tabcontent">
+         <i><h1>Elektroničar</h1> <br>     
+         <p id="img-tekst"  >
+         <img class="slika"  src="slike/elploca.jpg" alt="karta" width="600px" height="300px">
+        
+        Elektroničar obavlja poslove proizvodnje i održavanja elektroničkih sklopova i uređaja.
+        Osnovni poslovi se odnose na izradu elektroničkih sklopova i tiskanih ploča, montiranje
+        složenih elektroničkih uređaja, kontrolu proizvoda prema uputama i propisima, 
+        obavljanje poslova održavanja elektroničkih uređaja i uporabu aplikacijskih računalnih
+        programa u projektiranju i konstrukciji elektroničkih sklopova. Elektroničar za
+        računalstvo servisira i održava računalnu opremu, provjerava ispravnost računalnih
+        komponenata, rad računala i računalnih mreža, montira računala, prateće komponente
+        i instalira programske potpore, umnaža podatke na medije za pohranjivanje i 
+        arhiviranje tehničke dokumentacije, servisira i poslužuje računalne sustave. 
+        Elektroničar za audio i video tehniku provjerava ispravnost komponenata audio i 
+        video uređaja, servisira i održava audio i video uređaje te vodi skladišta
+        komponenata i uređaja u servisima audio i video opreme. Elektroničar za automatiku
+        provjerava ispravnost mjerno-regulacijskih komponenata, montira, servisira i održava 
+        uređaje i sustave za upravljanje i vođenje procesa te vodi skladišta komponenata i 
+        uređaja u servisima i pogonima s mjerno-regulacijskom opremom. Za obavljanje poslova
+        ovog zanimanja važno je imati dobar vid i sluh, sposobnost razlikovanja boja te 
+        razvijenu spretnost ruku i prstiju.</p></i> 
+       </div>
+      
+       <div id="treca" class="tabcontent">
+        <i><h1>Vozač motornih vozila</h1><br>
+        <p id="img-tekst"  >
+        <img class="slika"  src="slike/kamion_elpros.jpg" alt="karta" width="600px" height="300px">
+        Upravlja vozilom unutar gradskog područja te u međumjesnom i međunarodnom prometu.
+        Obavlja poslove pripreme vozila za prijevoz, vodi prijevoznu dokumentaciju,
+        otklanja manje kvarove na vozilu, preuzima teret u prijevozu, nadzire utovar i
+        istovar te vodi brigu o njegovoj zaštiti. Nakon završetka obrazovanja i određenog
+        radnog iskustva polaznik se kroz stručno usavršavanje može osposobiti za vozača 
+        autobusa, taksi vozača i autodizaličara. Vozač mora imati vrlo dobre senzorne,
+        mentalne i psihomotorne sposobnosti što se utvrđuje posebnim liječničkim pregledima.
+        Zapreke za obavljanje navedenih poslova su teže bolesti unutrašnjih organa,
+        oštećenja udova i kralježnice, poremećaji vida i teška oštećenja sluha, epilepsija,
+        teži oblici šećerne bolesti, alergijske i kronične bolesti dišnog sustava, 
+        psihoze. Potrebna je dobra emocionalna stabilnost.</p></i>
+       </div>
+    </div>
+    
+      
+      <button class="tablink" onclick="zanimanje('prva', this, 'rgb(136, 90, 90)')" >ELEKTROMONTER</button>
+      <button class="tablink" onclick="zanimanje('druga', this, 'rgb(59, 146, 97)')"id="defaultOpen">ELEKTRONIČAR</button>
+      <button class="tablink" onclick="zanimanje('treca', this, 'rgb(74, 141, 180)')">VOZAČ MOTORNIH VOZILA</button>
+      
+
+     <br><br><br><br><br>
+
+
+
+
+
+     <!--NIZ SLIKA PRIJE FOOTERA-->
+       
+
+      <div id="slike">
+
+         <img src="slike/kompresor.jpg" alt="" width="182" height="200">  
+         <img src="slike/motor.jpg" alt="" width="182" height="200">
+         <img src="slike/ormarm.jpg" alt="" width="182" height="200">
+         <img src="slike/plamenik.jpg" alt="" width="182" height="200">
+         <img src="slike/kamion.jpg" alt="" width="182"  height="200">
+         <img src="slike/koma.jpg" alt="" width="182" height="200">  
+         <img src="slike/omeksivac.jpg" alt="" width="182" height="200"> 
+         <img src="slike/ormar.jpg" alt="" width="182" height="200">  
+
+       
+      </div>
+
+     
+
+
+
+
+
+      <!--OPIS ZANIMANJA SA BOJAMA ZA SVAKU RAZLIČITU STAVKU-->
+      <script>
+      function zanimanje(zanimanjeName,elmnt,color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(zanimanjeName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+      
+      }
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+      </script><br><br><br><br>
+
+
+
+
+
+
+
+
+             <!--PODNOŽJE STRANICE SA KONTAKTIMA I IKONAMA-->
+
+      <footer>
+    <div class="kontakt">
+       <div>
+           <ul><b>KONTAKT:</b>
+               <li>Istarska 3, 31000 Osijek</li>
+               <li>OIB: 28015293209</li>
+               <li>Tel: 031 208 400</li>
+               <li>E-mail: ured@ss-elektrotehnicka-prometna-os.skola.hr</li>
+           </ul>
+       </div>
+     <div>
+           <ul><b>ADMINISTRACIJA:</b>
+         
+              <li>Ravnatelj: Antun Kovačić, dipl.ing.</li>
+              <li>Tajnica: Snježana Čagalj, dipl.iur.</li>
+              <li>Pedagoginja: Blaženka Pul, prof</li>
+              <li>Voditelj: Mario Jukić, dipl.ing.</li>
+           </ul>
+     </div>
+
+    
+     <div>
+           <ul><b>DRUŠTVENE MREŽE:</b>
+             <br>
+             <a href="https://www.facebook.com/RckElpros/"  target="_blank" class="fa fa-facebook"></a>
+             <a href="https://elpros.net/"  target="_blank" class="fa fa-google"></a>
+             <a href="https://www.linkedin.com/"  target="_blank" class="fa fa-linkedin"></a>
+             <a href="https://www.youtube.com/watch?v=WIQB3lCp1UY"  target="_blank" class="fa fa-youtube"></a>
+             
+           </ul>
+      </div>
+    </div>
+      </footer>
+
+
+
+
+
+
+    
+</body>
+</html>

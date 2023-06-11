@@ -1,0 +1,59 @@
+/* KONTAKTI BODY STRANICA ELPROS , ZAVRŠNI ISPIT*/
+
+
+
+/*NIZ OD TRI SLIKE , MORAJU BIT ISTIH DIMENZIJA I FORMATA*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;    
+  }
+
+
+
+
+  .row1 {
+
+    display: inline-flex;
+   
+  }
+
+
+
+  .popis {
+     padding: 40px; 
+     margin: 70px;
+  }
+
+
+
+  .kod {
+    padding: 62px;
+    margin: 70px;
+  }
+
+
+
+
+    /* GOOGLE KARTA.LOKACIJA ŠKOLE SA OKVIROM*/
+  #karta
+ {
+  float: center;
+  text-align: center;
+  
+ }
+
+
+
+
+  
+
